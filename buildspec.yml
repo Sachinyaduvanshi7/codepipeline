@@ -13,12 +13,8 @@ phases:
     commands:
         # run build script
         - npm run build
-     
-  post_build:
-    commands:
-      - echo Packaging the build artifacts...
-      - mkdir -p build_artifacts
-      - cp -r build/* build_artifacts/
+
 artifacts:
   files:
-    - build_artifacts/**/*
+    - '/**/*'
+   base-directory: build
