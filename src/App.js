@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          codepipline setup react app test-1a
+          codepipline setup react app test-1b
         </p>
         <a
           className="App-link"
